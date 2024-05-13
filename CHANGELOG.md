@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v1.0.0...v1.1.0) (2024-05-13)
+
+
+### Features
+
+* implement the generation infrastructure ([aafbf43](https://github.com/wwi21seb-projekt/errors-ts/commit/aafbf4350ed6aba34bac686941ab5cf38804384c))
+
 # 1.0.0 (2024-05-13)
 
 
