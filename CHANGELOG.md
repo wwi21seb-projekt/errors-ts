@@ -1,3 +1,13 @@
+# [2.0.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v1.1.0...v2.0.0) (2024-05-13)
+
+
+* feat!: uptake new errors ([d483983](https://github.com/wwi21seb-projekt/errors-ts/commit/d483983cf487c042bcf748d361207a642f00745c))
+
+
+### BREAKING CHANGES
+
+* triggering a breaking change so a major releases for a stable version
+
 # [1.1.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v1.0.0...v1.1.0) (2024-05-13)
 
 
