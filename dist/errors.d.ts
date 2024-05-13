@@ -24,3 +24,5 @@ export declare const SubscriptionSelfFollow: CustomError;
 export declare const UnsubscribeForbidden: CustomError;
 export declare const DeletePostForbidden: CustomError;
 export declare const PostNotFound: CustomError;
+export declare const AlreadyLiked: CustomError;
+export declare const NotLiked: CustomError;
