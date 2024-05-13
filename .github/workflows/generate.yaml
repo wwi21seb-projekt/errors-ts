@@ -30,7 +30,7 @@ jobs:
         run: pnpm install
 
       - name: Generate TypeScript errors
-        run: pnpm prepublishOnly
+        run: pnpm generate && pnpm build
 
       - name: Generate token
         id: generate-token
@@ -48,3 +48,10 @@ jobs:
           body: ":robot: This PR updates the error codes. Merging this PR will trigger a deployment for the TS domain."
           branch: "update-error-codes"
           team-reviewers: "api-maintainers"
+
+      - name: Dry run semantic release
+        run: npx semantic-release --dry-run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,8 +1,11 @@
 {
   "name": "@wwi21seb-projekt/errors-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project containing typescript errors for the wwi21seb project",
-  "repository": "https://github.com/wwi21seb-projekt/errors-ts",
+  "repository": {
+    "url": "git+https://github.com/wwi21seb-projekt/errors-ts.git",
+    "type": "git"
+  },
   "main": "./dist/errors.js",
   "types": "./dist/errors.d.ts",
   "author": "@wwi21seb-projekt",
@@ -14,8 +17,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "generate": "tsc && node dist/generate.js",
-    "prepublishOnly": "pnpm generate && pnpm build"
+    "generate": "tsc && node dist/generate.js"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/",
