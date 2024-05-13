@@ -32,8 +32,8 @@ jobs:
 
       - name: Release a new version
         run: |
-          pnpm audit signatures
-          pnpm ci
+          pnpm install
+          pnpm audit signatures        
           npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

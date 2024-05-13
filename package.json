@@ -27,6 +27,8 @@
     "dist/errors.d.ts.map"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.12.11",
     "semantic-release": "^23.1.1",
     "typescript": "^5.4.5"
