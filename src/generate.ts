@@ -13,7 +13,7 @@ interface CustomError {
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
 // Download the JSON file from the GitHub repository https://raw.githubusercontent.com/wwi21seb-projekt/error-domain/main/errors.json
-const response = await fetch('https://raw.githubusercontent.com/wwi21seb-projekt/error-domain/main/errors/errors.json');
+const response = await fetch('https://raw.githubusercontent.com/wwi21seb-projekt/error-domain/main/errors.json');
 if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
 }
