@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // target version of ECMAScript for modern browsers
+    "module": "esnext",
+    "declaration": true, // generate type definitions
+    "esModuleInterop": true, // enable interoperability between CommonJS and ES6 modules
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // enable all strict type-checking options
+    "outDir": "./dist" // output directory for compiled files
+  },
+  "include": ["./src/"], // include all files in the src directory
+}
