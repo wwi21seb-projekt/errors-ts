@@ -48,7 +48,7 @@ export const InvalidToken = new CustomError(
 export const InvalidCredentials = new CustomError(
 	"The credentials are invalid. Please check the credentials and try again.", 
 	"ERR-008", 
-	401
+	404
 );
 export const InternalServerError = new CustomError(
 	"An internal server error occurred. Please try again later.", 
@@ -93,7 +93,7 @@ export const SubscriptionAlreadyExists = new CustomError(
 export const SubscriptionSelfFollow = new CustomError(
 	"You cannot follow yourself. Please check the username and try again.", 
 	"ERR-017", 
-	400
+	406
 );
 export const UnsubscribeForbidden = new CustomError(
 	"You can only delete your own subscriptions.", 
@@ -109,4 +109,14 @@ export const PostNotFound = new CustomError(
 	"The post was not found. Please check the post ID and try again.", 
 	"ERR-020", 
 	404
+);
+export const AlreadyLiked = new CustomError(
+	"You have already liked this post.", 
+	"ERR-021", 
+	409
+);
+export const NotLiked = new CustomError(
+	"You can't unlike a post you haven't liked.", 
+	"ERR-022", 
+	409
 );
