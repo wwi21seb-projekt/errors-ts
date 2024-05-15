@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.0.0...v2.1.0) (2024-05-15)
+
+
+### Features
+
+* generate two new notification errors ([1b6f470](https://github.com/wwi21seb-projekt/errors-ts/commit/1b6f470bd4482936f75d8dad38b8160e22eeaaf5))
+
 # [2.0.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v1.1.0...v2.0.0) (2024-05-13)
 
 
