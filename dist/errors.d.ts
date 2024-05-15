@@ -26,3 +26,5 @@ export declare const DeletePostForbidden: CustomError;
 export declare const PostNotFound: CustomError;
 export declare const AlreadyLiked: CustomError;
 export declare const NotLiked: CustomError;
+export declare const NotificationNotFound: CustomError;
+export declare const DeleteNotificationForbidden: CustomError;

@@ -30,3 +30,5 @@ export const DeletePostForbidden = new CustomError("You can only delete your own
 export const PostNotFound = new CustomError("The post was not found. Please check the post ID and try again.", "ERR-020", 404);
 export const AlreadyLiked = new CustomError("You have already liked this post.", "ERR-021", 409);
 export const NotLiked = new CustomError("You can't unlike a post you haven't liked.", "ERR-022", 409);
+export const NotificationNotFound = new CustomError("The notification was not found. Please check the notification ID and try again.", "ERR-023", 404);
+export const DeleteNotificationForbidden = new CustomError("You can only delete your own notifications.", "ERR-024", 403);
