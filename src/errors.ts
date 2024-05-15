@@ -120,3 +120,13 @@ export const NotLiked = new CustomError(
 	"ERR-022", 
 	409
 );
+export const NotificationNotFound = new CustomError(
+	"The notification was not found. Please check the notification ID and try again.", 
+	"ERR-023", 
+	404
+);
+export const DeleteNotificationForbidden = new CustomError(
+	"You can only delete your own notifications.", 
+	"ERR-024", 
+	403
+);
