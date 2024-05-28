@@ -1,6 +1,6 @@
 {
   "name": "@wwi21seb-projekt/errors-ts",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Project containing typescript errors for the wwi21seb project",
   "repository": {
     "url": "git+https://github.com/wwi21seb-projekt/errors-ts.git",

@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.1.0...v2.2.0) (2024-05-28)
+
+
+### Features
+
+* create new errors for chat ([63196f8](https://github.com/wwi21seb-projekt/errors-ts/commit/63196f89181e4f792b1fb2458d6d44a337161be2))
+
 # [2.1.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.0.0...v2.1.0) (2024-05-15)
 
 
