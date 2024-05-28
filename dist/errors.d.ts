@@ -28,3 +28,6 @@ export declare const AlreadyLiked: CustomError;
 export declare const NotLiked: CustomError;
 export declare const NotificationNotFound: CustomError;
 export declare const DeleteNotificationForbidden: CustomError;
+export declare const PasswordResetTokenInvalid: CustomError;
+export declare const ChatAlreadyExists: CustomError;
+export declare const ChatNotFound: CustomError;

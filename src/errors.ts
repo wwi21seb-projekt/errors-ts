@@ -78,7 +78,7 @@ export const UserAlreadyActivated = new CustomError(
 export const Unauthorized = new CustomError(
 	"The request is unauthorized. Please login to your account.", 
 	"ERR-014", 
-	401
+	208
 );
 export const SubscriptionNotFound = new CustomError(
 	"The subscription was not found. Please check the username and try again.", 
@@ -129,4 +129,19 @@ export const DeleteNotificationForbidden = new CustomError(
 	"You can only delete your own notifications.", 
 	"ERR-024", 
 	403
+);
+export const PasswordResetTokenInvalid = new CustomError(
+	"The password reset token is invalid or has expired. Please request a new token and try again.", 
+	"ERR-025", 
+	403
+);
+export const ChatAlreadyExists = new CustomError(
+	"The chat already exists. Please check the username and try again.", 
+	"ERR-026", 
+	409
+);
+export const ChatNotFound = new CustomError(
+	"The chat was not found. Please check the chat ID and try again.", 
+	"ERR-027", 
+	404
 );
