@@ -4,6 +4,7 @@ export declare class CustomError extends Error {
     httpStatus: number;
     constructor(message: string, code: string, httpStatus: number);
 }
+export declare const EndpointNotFound: CustomError;
 export declare const BadRequest: CustomError;
 export declare const UsernameTaken: CustomError;
 export declare const EmailTaken: CustomError;
@@ -31,3 +32,4 @@ export declare const DeleteNotificationForbidden: CustomError;
 export declare const PasswordResetTokenInvalid: CustomError;
 export declare const ChatAlreadyExists: CustomError;
 export declare const ChatNotFound: CustomError;
+export declare const ImageNotFound: CustomError;
