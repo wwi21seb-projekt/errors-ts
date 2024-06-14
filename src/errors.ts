@@ -10,6 +10,11 @@ export class CustomError extends Error {
     }
 }
 
+export const EndpointNotFound = new CustomError(
+	"The endpoint was not found. Please check the endpoint and try again.", 
+	"ERR-000", 
+	404
+);
 export const BadRequest = new CustomError(
 	"The request body is invalid. Please check the request body and try again.", 
 	"ERR-001", 
@@ -143,5 +148,10 @@ export const ChatAlreadyExists = new CustomError(
 export const ChatNotFound = new CustomError(
 	"The chat was not found. Please check the chat ID and try again.", 
 	"ERR-027", 
+	404
+);
+export const ImageNotFound = new CustomError(
+	"The image was not found. Please check the image URL and try again.", 
+	"ERR-028", 
 	404
 );

@@ -8,6 +8,7 @@ export class CustomError extends Error {
         this.httpStatus = httpStatus;
     }
 }
+export const EndpointNotFound = new CustomError("The endpoint was not found. Please check the endpoint and try again.", "ERR-000", 404);
 export const BadRequest = new CustomError("The request body is invalid. Please check the request body and try again.", "ERR-001", 400);
 export const UsernameTaken = new CustomError("The username is already taken. Please try another username.", "ERR-002", 409);
 export const EmailTaken = new CustomError("The email is already taken. Please try another email.", "ERR-003", 409);
@@ -35,3 +36,4 @@ export const DeleteNotificationForbidden = new CustomError("You can only delete 
 export const PasswordResetTokenInvalid = new CustomError("The password reset token is invalid or has expired. Please request a new token and try again.", "ERR-025", 403);
 export const ChatAlreadyExists = new CustomError("The chat already exists. Please check the username and try again.", "ERR-026", 409);
 export const ChatNotFound = new CustomError("The chat was not found. Please check the chat ID and try again.", "ERR-027", 404);
+export const ImageNotFound = new CustomError("The image was not found. Please check the image URL and try again.", "ERR-028", 404);
