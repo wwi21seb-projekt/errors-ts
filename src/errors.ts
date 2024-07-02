@@ -53,7 +53,7 @@ export const InvalidToken = new CustomError(
 export const InvalidCredentials = new CustomError(
 	"The credentials are invalid. Please check the credentials and try again.", 
 	"ERR-008", 
-	404
+	403
 );
 export const InternalServerError = new CustomError(
 	"An internal server error occurred. Please try again later.", 
@@ -83,7 +83,7 @@ export const UserAlreadyActivated = new CustomError(
 export const Unauthorized = new CustomError(
 	"The request is unauthorized. Please login to your account.", 
 	"ERR-014", 
-	208
+	401
 );
 export const SubscriptionNotFound = new CustomError(
 	"The subscription was not found. Please check the username and try again.", 
