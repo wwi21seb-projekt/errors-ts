@@ -1,3 +1,16 @@
+# [2.3.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.2.0...v2.3.0) (2024-07-03)
+
+
+### Bug Fixes
+
+* change http status for unauthorized ([86e1359](https://github.com/wwi21seb-projekt/errors-ts/commit/86e13591b1290c5cae22741c675278c21f4fdd08))
+* remove audit-signatures ([82e6102](https://github.com/wwi21seb-projekt/errors-ts/commit/82e61026059169dc44bac169c237f6da64e8f02e))
+
+
+### Features
+
+* create new errors for images ([11f2174](https://github.com/wwi21seb-projekt/errors-ts/commit/11f2174055b09488326f7eeb68491c08ca56d0ff))
+
 # [2.2.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.1.0...v2.2.0) (2024-05-28)
 
 
