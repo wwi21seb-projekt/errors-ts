@@ -78,7 +78,7 @@ export const EmailNotSent = new CustomError(
 export const UserAlreadyActivated = new CustomError(
 	"The user is already activated. Please login to your account.", 
 	"ERR-013", 
-	400
+	208
 );
 export const Unauthorized = new CustomError(
 	"The request is unauthorized. Please login to your account.", 
