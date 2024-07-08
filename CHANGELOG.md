@@ -1,3 +1,10 @@
+## [2.3.1](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.3.0...v2.3.1) (2024-07-08)
+
+
+### Bug Fixes
+
+* return code for useractivation back to 208 ([5d2bef1](https://github.com/wwi21seb-projekt/errors-ts/commit/5d2bef1233b6bc6ec64f64e8bcd0566a762f17b9))
+
 # [2.3.0](https://github.com/wwi21seb-projekt/errors-ts/compare/v2.2.0...v2.3.0) (2024-07-03)
 
 
